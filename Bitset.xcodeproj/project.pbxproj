@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E9A30EE18D11690003B2D32 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9A30ED18D11690003B2D32 /* Cocoa.framework */; };
+		4E9A30F818D11690003B2D32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E9A30F618D11690003B2D32 /* InfoPlist.strings */; };
+		4E9A30FC18D11690003B2D32 /* MCBitset.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9A30FB18D11690003B2D32 /* MCBitset.m */; };
+		4E9A310318D11690003B2D32 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9A310218D11690003B2D32 /* XCTest.framework */; };
+		4E9A310418D11690003B2D32 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9A30ED18D11690003B2D32 /* Cocoa.framework */; };
+		4E9A310718D11690003B2D32 /* Bitset.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9A30EA18D11690003B2D32 /* Bitset.framework */; };
+		4E9A310D18D11690003B2D32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E9A310B18D11690003B2D32 /* InfoPlist.strings */; };
+		4E9A311918D119FB003B2D32 /* MCBitsetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9A311818D119FB003B2D32 /* MCBitsetTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E9A310518D11690003B2D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E9A30E118D11690003B2D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E9A30E918D11690003B2D32;
+			remoteInfo = Bitset;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E9A30EA18D11690003B2D32 /* Bitset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bitset.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E9A30ED18D11690003B2D32 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4E9A30F018D11690003B2D32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E9A30F118D11690003B2D32 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4E9A30F218D11690003B2D32 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4E9A30F518D11690003B2D32 /* Bitset-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bitset-Info.plist"; sourceTree = "<group>"; };
+		4E9A30F718D11690003B2D32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E9A30F918D11690003B2D32 /* Bitset-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bitset-Prefix.pch"; sourceTree = "<group>"; };
+		4E9A30FA18D11690003B2D32 /* MCBitset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCBitset.h; sourceTree = "<group>"; };
+		4E9A30FB18D11690003B2D32 /* MCBitset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCBitset.m; sourceTree = "<group>"; };
+		4E9A310118D11690003B2D32 /* BitsetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitsetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E9A310218D11690003B2D32 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4E9A310A18D11690003B2D32 /* BitsetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BitsetTests-Info.plist"; sourceTree = "<group>"; };
+		4E9A310C18D11690003B2D32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E9A311818D119FB003B2D32 /* MCBitsetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCBitsetTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E9A30E618D11690003B2D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9A30EE18D11690003B2D32 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E9A30FE18D11690003B2D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9A310418D11690003B2D32 /* Cocoa.framework in Frameworks */,
+				4E9A310318D11690003B2D32 /* XCTest.framework in Frameworks */,
+				4E9A310718D11690003B2D32 /* Bitset.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E9A30E018D11690003B2D32 = {
+			isa = PBXGroup;
+			children = (
+				4E9A30F318D11690003B2D32 /* Bitset */,
+				4E9A310818D11690003B2D32 /* BitsetTests */,
+				4E9A30EC18D11690003B2D32 /* Frameworks */,
+				4E9A30EB18D11690003B2D32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E9A30EB18D11690003B2D32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E9A30EA18D11690003B2D32 /* Bitset.framework */,
+				4E9A310118D11690003B2D32 /* BitsetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E9A30EC18D11690003B2D32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E9A30ED18D11690003B2D32 /* Cocoa.framework */,
+				4E9A310218D11690003B2D32 /* XCTest.framework */,
+				4E9A30EF18D11690003B2D32 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E9A30EF18D11690003B2D32 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E9A30F018D11690003B2D32 /* Foundation.framework */,
+				4E9A30F118D11690003B2D32 /* CoreData.framework */,
+				4E9A30F218D11690003B2D32 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4E9A30F318D11690003B2D32 /* Bitset */ = {
+			isa = PBXGroup;
+			children = (
+				4E9A30FA18D11690003B2D32 /* MCBitset.h */,
+				4E9A30FB18D11690003B2D32 /* MCBitset.m */,
+				4E9A30F418D11690003B2D32 /* Supporting Files */,
+			);
+			path = Bitset;
+			sourceTree = "<group>";
+		};
+		4E9A30F418D11690003B2D32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E9A30F518D11690003B2D32 /* Bitset-Info.plist */,
+				4E9A30F618D11690003B2D32 /* InfoPlist.strings */,
+				4E9A30F918D11690003B2D32 /* Bitset-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E9A310818D11690003B2D32 /* BitsetTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E9A310918D11690003B2D32 /* Supporting Files */,
+				4E9A311818D119FB003B2D32 /* MCBitsetTests.m */,
+			);
+			path = BitsetTests;
+			sourceTree = "<group>";
+		};
+		4E9A310918D11690003B2D32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E9A310A18D11690003B2D32 /* BitsetTests-Info.plist */,
+				4E9A310B18D11690003B2D32 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E9A30E718D11690003B2D32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E9A30E918D11690003B2D32 /* Bitset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E9A311218D11690003B2D32 /* Build configuration list for PBXNativeTarget "Bitset" */;
+			buildPhases = (
+				4E9A30E518D11690003B2D32 /* Sources */,
+				4E9A30E618D11690003B2D32 /* Frameworks */,
+				4E9A30E718D11690003B2D32 /* Headers */,
+				4E9A30E818D11690003B2D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bitset;
+			productName = Bitset;
+			productReference = 4E9A30EA18D11690003B2D32 /* Bitset.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E9A310018D11690003B2D32 /* BitsetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E9A311518D11690003B2D32 /* Build configuration list for PBXNativeTarget "BitsetTests" */;
+			buildPhases = (
+				4E9A30FD18D11690003B2D32 /* Sources */,
+				4E9A30FE18D11690003B2D32 /* Frameworks */,
+				4E9A30FF18D11690003B2D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E9A310618D11690003B2D32 /* PBXTargetDependency */,
+			);
+			name = BitsetTests;
+			productName = BitsetTests;
+			productReference = 4E9A310118D11690003B2D32 /* BitsetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E9A30E118D11690003B2D32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jeremy Tregunna";
+				TargetAttributes = {
+					4E9A310018D11690003B2D32 = {
+						TestTargetID = 4E9A30E918D11690003B2D32;
+					};
+				};
+			};
+			buildConfigurationList = 4E9A30E418D11690003B2D32 /* Build configuration list for PBXProject "Bitset" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E9A30E018D11690003B2D32;
+			productRefGroup = 4E9A30EB18D11690003B2D32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E9A30E918D11690003B2D32 /* Bitset */,
+				4E9A310018D11690003B2D32 /* BitsetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E9A30E818D11690003B2D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9A30F818D11690003B2D32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E9A30FF18D11690003B2D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9A310D18D11690003B2D32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E9A30E518D11690003B2D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9A30FC18D11690003B2D32 /* MCBitset.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E9A30FD18D11690003B2D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9A311918D119FB003B2D32 /* MCBitsetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E9A310618D11690003B2D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E9A30E918D11690003B2D32 /* Bitset */;
+			targetProxy = 4E9A310518D11690003B2D32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E9A30F618D11690003B2D32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E9A30F718D11690003B2D32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E9A310B18D11690003B2D32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E9A310C18D11690003B2D32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E9A311018D11690003B2D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4E9A311118D11690003B2D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4E9A311318D11690003B2D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bitset/Bitset-Prefix.pch";
+				INFOPLIST_FILE = "Bitset/Bitset-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		4E9A311418D11690003B2D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bitset/Bitset-Prefix.pch";
+				INFOPLIST_FILE = "Bitset/Bitset-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		4E9A311618D11690003B2D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bitset.framework/Versions/A/Bitset";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bitset/Bitset-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BitsetTests/BitsetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4E9A311718D11690003B2D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bitset.framework/Versions/A/Bitset";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bitset/Bitset-Prefix.pch";
+				INFOPLIST_FILE = "BitsetTests/BitsetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E9A30E418D11690003B2D32 /* Build configuration list for PBXProject "Bitset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9A311018D11690003B2D32 /* Debug */,
+				4E9A311118D11690003B2D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E9A311218D11690003B2D32 /* Build configuration list for PBXNativeTarget "Bitset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9A311318D11690003B2D32 /* Debug */,
+				4E9A311418D11690003B2D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E9A311518D11690003B2D32 /* Build configuration list for PBXNativeTarget "BitsetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9A311618D11690003B2D32 /* Debug */,
+				4E9A311718D11690003B2D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E9A30E118D11690003B2D32 /* Project object */;
+}
